@@ -1,0 +1,49 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  background-color: #61dafb;
+  text-transform: capitalize;
+}
+.header{
+  text-align: center;
+  color: #fff;
+}
+.main {
+  margin:100px auto;
+  width:70%;
+}
+.myHeader , .AllItems , form{
+  display: grid;
+  grid-template-columns: 50% 25% 25%;
+  grid-template-rows: 100%;
+}
+.myHeader span{
+  font-weight: bold;
+  background-color: #0bbcec;
+  color:#fff;
+  padding:10px
+}
+
+.AllItems span, p{
+  
+  background-color: #fff;
+  color:#0bbcec;
+  padding:10px;
+  font-weight: bold;
+}
+.AllItems .action{
+  cursor: pointer;
+  color:#f00
+}
+p{
+  margin:0px
+}
+form input{
+  padding:10px ;
+  border: none;
+  background-color: #ddd;
+}
+input:focus{
+  outline: none;
+}
